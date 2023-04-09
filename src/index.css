@@ -38,9 +38,9 @@ code {
     monospace;
 }
 
-.button {
+button {
   width: 100%;
-  padding: 8px 0;
+  padding: 8px 5px;
   border-radius: 4px;
   border: 1px solid var(--primary);
   background-color: var(--primary);
@@ -48,7 +48,7 @@ code {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   border: 1px solid var(--secondary);
   background-color: var(--secondary);
 }
